@@ -38,7 +38,9 @@ BODY{
     justify-content:center;
     align-items: center;
     position: relative;
-    padding: 10px;
+     width: 100%;
+    margin: auto;  
+    padding: 15px 20px;
 
     background-color: darkred;
     border-radius: 40px;
