@@ -1,0 +1,5 @@
+//mixin
+@mixin flexAvanzado($justifyValor,$alingValor){
+    justify-content: $justifyValor;
+    align-items: $alingValor;
+    }

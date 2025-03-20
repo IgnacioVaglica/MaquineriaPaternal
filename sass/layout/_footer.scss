@@ -1,0 +1,15 @@
+@use "../utilities/variables" as variable;
+
+// FOOTER
+footer {
+    background-color: variable.$color-footer-fondo;
+    color: variable.$color-blanco;
+    padding: 20px;
+}
+
+.footergeneral {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+}
