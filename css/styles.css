@@ -1,766 +1,375 @@
-
-/*estilos generales*/
-*{
-    font-family: "Fira Sans", serif;
-}
-
-BODY{
-    background-color: rgb(243, 243, 222);
-}
-
-.tituloColorRojo{
-    color: rgb(107, 0, 0);
-}
-
-.footergeneral{
-
-    background-color: rgba(209, 209, 175, 0.459);
-}
-
-.maquisection{
-    background-color: rgba(139, 0, 0, 0.164); 
-    border-radius: 10px;
- }
-
-/*INDEX*/
-
-/*header*/
- 
-.titulomaquineria{
-   font-size: 60px;
-   text-align: center;
-   color: white;
-
-
-}
-
-.Alineacionheader{
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    position: relative;
-     width: 100%;
-    margin: auto;  
-    padding: 15px 20px;
-
-    background-color: darkred;
-    border-radius: 40px;
-    color: white;
-
-
-    
-}
-.Alineacionheader img{
-    height: 300px;
-}
-
-
-
-
-
-/*MAIN*/
-
-.Videocontenedor{
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-  
-}
-
-
-.tituloMain{
-    font-size: 30px;
-}
-
-.Centrosub{
-    text-align: center;
-    border-radius: 15px;
-    justify-content: center;
-    margin-top: 20px;
-
-}
-.Contenedormarcas{
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-
-}
-
-
-
-/*PRODUCTOS*/
-/*main*/
-
-.tituloheaderproducto{
-
-    font-size: 40px;
-    text-align: center;
-    border-radius: 20px;
-}
-
-.DescricpcionHeader{
-    font-size: 20px;
-    text-align: center;
-    background-color: white;
-    border-radius: 40%;
-    padding: 15px;
-    margin: 20px;
-
-
-
-
-}
-
-.ContenedorProductos{
-display: flex;
-justify-content:center ;
-align-items: center;
-flex-wrap: wrap;
-
-}
-
-
-
-.Cardproducto{
-    background-color: rgba(139, 0, 0, 0.664);
-    padding: 15px;
-    margin: 20px;
-    border-radius: 20px;
-    box-shadow: 0px 0px 10px black;
-
-    display: flex ;
-    flex-direction: column;
-    align-items: center;
-    width: 250px; 
-    height: 400px;
-    overflow: hidden;
-
-
-  }
-
-.imagengeneralmaqui{
-    width: 100%;
-    height: 150px; 
-    object-fit: cover; 
-    border-radius: 5px;
-
-
-}
-
-.titulomainproducto{
-    font-size: 18px; 
-font-weight: bold;
-     height: 50px; 
- display: flex;
-    align-items: center; 
-    justify-content: center;
-    text-align: center;
-
-    }
-    .descripcionProducto{
-        font-size: 14px;
-
-    display: flex;
-    align-items: center;
-     justify-content: center;
-    text-align: center;
-    padding: 10px;
-    height: 100px; 
-
-    }
-
-    .boton{
-       
-          background: linear-gradient(45deg, #ff416c, #ff4b2b); 
-        color: white;
-         font-size: 16px;
-        font-weight: bold;
-        padding: 12px 24px;
-        border: none;
-      border-radius: 30px; 
-     cursor: pointer;
-       
-   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-        text-transform: uppercase;
-
-
-    }
-
-.VolverFlex{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-
-
-}
-
-
-.botonInicio{
-     display: inline-block;
-    background-color:darkred ;
-    color: white;
-     font-size: 16px;
-       font-weight: bold;
-     padding: 12px 24px;
-     border-radius: 30px; 
-      text-decoration: none; 
-     text-align: center;
-    
-     
-}
-
-.Sinpunto{
-    list-style-type: none;
-}
-    
-   
-
-/* Servicios*/
-
-/*main*/
-
-.Sectionservicio{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 20px;
-    text-align: center;
-
-    background-color: white;
-    border-radius: 100px;
-
-}
-
-.Sectionservicio article{
-    flex: 1;
-    min-width: 300px;
-    max-width: 400px;
-}
- 
-.tituloMainServ{
-    font-size: 230%;
-}
-.imagenServicios{
-
-    width: 40%;
-}
-
-/*Contacto*/
-/*main*/
-
-.spanContactos{
-
-    font-weight: 800;
-    font-size: 18px;
-}
-
-.contactosLi{
-font-size: 16px;
-}
-
-.Contenedormapa{
-
-    display: flex; 
-    flex-direction: column; 
-    align-items: center; 
-    justify-content: center; 
-    gap: 20px; 
-    text-align: center;
-    padding: 20px;
-
- 
-    
-}
-.diseñoMapa{
-    border-radius: 15px; 
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
-    width: 100%; 
-    height: 400px; 
-    max-width: 800px; 
-    margin-top: 20px; 
-}
- 
-
-
-
-
-
-/*SECCIÓN SERVICIOS*/
-
-
-section {
-    padding: 20px;
-}
-
-.section-servicios {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 20px;
-    text-align: center;
-}
-
-.section-servicios article {
-    flex: 1;
-    min-width: 300px;
-    max-width: 400px;
-}
-
-/*IMAGEN SERVICIOS*/
-.imagenServicios {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    margin: 20px auto;
-}
-
-/*FOOTER*/
+@charset "UTF-8";
 footer {
-    background-color: #222222;
-    color: white;
-    padding: 20px;
+  background-color: #222222;
+  color: white;
+  padding: 20px;
 }
 
 .footergeneral {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    text-align: center;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
 }
 
+.Contenedormarcas {
+  display: flex;
+  flex-direction: column;
+}
 
+.Videocontenedor {
+  display: flex;
+  width: 100%;
+  max-width: 100vw;
+  overflow: hidden;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
 
+.tituloMain {
+  font-size: 30px;
+}
 
+.Centrosub {
+  text-align: center;
+  border-radius: 15px;
+  justify-content: center;
+  margin-top: 20px;
+}
 
+.Contenedormarcas {
+  justify-content: center;
+  align-items: center;
+}
+
+.VolverFlex, .titulomainproducto, .Cardproducto {
+  display: flex;
+  flex-direction: column;
+}
+
+.tituloheaderproducto {
+  font-size: 40px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.DescricpcionHeader {
+  font-size: 20px;
+  text-align: center;
+  background-color: white;
+  border-radius: 40%;
+  padding: 15px;
+  margin: 20px;
+}
+
+.ContenedorProductos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.Cardproducto {
+  background-color: rgba(139, 0, 0, 0.664);
+  padding: 15px;
+  margin: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px black;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.imagengeneralmaqui {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.titulomainproducto {
+  font-size: 18px;
+  font-weight: bold;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.descripcionProducto {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  height: 100px;
+}
+
+.boton {
+  background: linear-gradient(45deg, #ff416c, #ff4b2b);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+  transition: 0.3s ease;
+}
+
+.boton:hover {
+  transform: scale(1.2);
+}
+
+.VolverFlex {
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s ease;
+}
+
+.VolverFlex:hover {
+  transform: scale(1.2);
+}
+
+.botonInicio {
+  display: inline-block;
+  background-color: darkred;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 24px;
+  border-radius: 30px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.Sinpunto {
+  list-style-type: none;
+}
+
+.tituloMainServ {
+  font-size: 230%;
+}
+
+.imagenServicios {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto;
+  width: 500px;
+  height: auto;
+}
+
+section {
+  padding: 20px;
+}
+
+.section-servicios {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  text-align: center;
+}
+.section-servicios article {
+  flex: 1;
+  min-width: 300px;
+  max-width: 400px;
+}
+
+.sectiondescrip {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  text-align: center;
+  background-color: rgba(109, 47, 47, 0.2);
+  font-weight: bold;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.section-servicios {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.section-servicios article {
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  opacity: 0;
+  animation: fadeInUp 1s ease-in-out forwards;
+}
+.section-servicios article:nth-child(1) {
+  animation-delay: 0.3s;
+}
+.section-servicios article:nth-child(2) {
+  animation-delay: 0.6s;
+}
+.section-servicios article:nth-child(3) {
+  animation-delay: 0.9s;
+}
+.section-servicios article h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+.section-servicios article p {
+  color: #555;
+}
+
+.imagenServicios {
+  display: block;
+  margin: 40px auto;
+  max-width: 100%;
+  border-radius: 10px;
+  opacity: 0;
+  animation: fadeInUp 1.2s ease-in-out forwards;
+  animation-delay: 1s;
+}
 
 /*CONTACTO*/
-
 .contacto {
-    background-color: #f8f9fa; 
-    padding: 20px;
-    border-radius: 10px;
-    max-width: 600px;
-    margin: 20px auto;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 20px auto;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
 /*Contenedor de la info */
 .contacto-info ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .contacto-info li {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 10px 0;
-    border-bottom: 1px solid #ddd;
-    font-size: 18px;
-}
-
-/*Último elemento sin borde*/
-.contacto-info li:last-child {
-    border-bottom: none;
-}
-
-/*Resaltado de iconos y texto*/
-.spanContactos {
-    font-weight: bold;
-    color: #d32f2f; 
-    font-size: 20px;
-}
-
-.Centroform{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   height: 20vh;
-
-}
-
-/*estilos generales*/
-*{
-    font-family: "Fira Sans", serif;
-}
-
-BODY{
-    background-color: rgb(243, 243, 222);
-}
-
-.tituloColorRojo{
-    color: rgb(107, 0, 0);
-}
-
-.footergeneral{
-
-    background-color: rgba(209, 209, 175, 0.459);
-}
-
-.maquisection{
-    background-color: rgba(139, 0, 0, 0.164); 
-    border-radius: 10px;
- }
-
-/*INDEX*/
-
-/*header*/
- 
-.titulomaquineria{
-   font-size: 60px;
-   text-align: center;
-   color: white;
-
-
-}
-
-.Alineacionheader{
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    position: relative;
-    padding: 10px;
-
-    background-color: darkred;
-    border-radius: 40px;
-    color: white;
-
-
-    
-}
-.Alineacionheader img{
-    height: 300px;
-}
-
-
-
-
-
-/*MAIN*/
-
-.Videocontenedor{
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-  
-}
-
-
-.tituloMain{
-    font-size: 30px;
-}
-
-.Centrosub{
-    text-align: center;
-    border-radius: 15px;
-    justify-content: center;
-    margin-top: 20px;
-
-}
-.Contenedormarcas{
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-
-}
-
-
-
-/*PRODUCTOS*/
-/*main*/
-
-.tituloheaderproducto{
-
-    font-size: 40px;
-    text-align: center;
-    border-radius: 20px;
-}
-
-.DescricpcionHeader{
-    font-size: 20px;
-    text-align: center;
-    background-color: white;
-    border-radius: 40%;
-    padding: 15px;
-    margin: 20px;
-
-
-
-
-}
-
-.ContenedorProductos{
-display: flex;
-justify-content:center ;
-align-items: center;
-flex-wrap: wrap;
-
-}
-
-
-
-.Cardproducto{
-    background-color: rgba(139, 0, 0, 0.664);
-    padding: 15px;
-    margin: 20px;
-    border-radius: 20px;
-    box-shadow: 0px 0px 10px black;
-
-    display: flex ;
-    flex-direction: column;
-    align-items: center;
-    width: 250px; 
-    height: 400px;
-    overflow: hidden;
-
-
-  }
-
-.imagengeneralmaqui{
-    width: 100%;
-    height: 150px; 
-    object-fit: cover; 
-    border-radius: 5px;
-
-
-}
-
-.titulomainproducto{
-    font-size: 18px; 
-font-weight: bold;
-     height: 50px; 
- display: flex;
-    align-items: center; 
-    justify-content: center;
-    text-align: center;
-
-    }
-    .descripcionProducto{
-        font-size: 14px;
-
-    display: flex;
-    align-items: center;
-     justify-content: center;
-    text-align: center;
-    padding: 10px;
-    height: 100px; 
-
-    }
-
-    .boton{
-       
-          background: linear-gradient(45deg, #ff416c, #ff4b2b); 
-        color: white;
-         font-size: 16px;
-        font-weight: bold;
-        padding: 12px 24px;
-        border: none;
-      border-radius: 30px; 
-     cursor: pointer;
-       
-   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-        text-transform: uppercase;
-
-
-    }
-
-.VolverFlex{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-
-
-}
-
-
-.botonInicio{
-     display: inline-block;
-    background-color:darkred ;
-    color: white;
-     font-size: 16px;
-       font-weight: bold;
-     padding: 12px 24px;
-     border-radius: 30px; 
-      text-decoration: none; 
-     text-align: center;
-    
-     
-}
-
-.Sinpunto{
-    list-style-type: none;
-}
-    
-   
-
-/* Servicios*/
-
-/*main*/
-
-.Sectionservicio{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 20px;
-    text-align: center;
-
-    background-color: white;
-    border-radius: 100px;
-
-}
-
-.Sectionservicio article{
-    flex: 1;
-    min-width: 300px;
-    max-width: 400px;
-}
- 
-.tituloMainServ{
-    font-size: 230%;
-}
-.imagenServicios{
-
-    width: 40%;
-}
-
-/*Contacto*/
-/*main*/
-
-.spanContactos{
-
-    font-weight: 800;
-    font-size: 18px;
-}
-
-.contactosLi{
-font-size: 16px;
-}
-
-.Contenedormapa{
-
-    display: flex; 
-    flex-direction: column; 
-    align-items: center; 
-    justify-content: center; 
-    gap: 20px; 
-    text-align: center;
-    padding: 20px;
-
- 
-    
-}
-.diseñoMapa{
-    border-radius: 15px; 
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
-    width: 100%; 
-    height: 400px; 
-    max-width: 800px; 
-    margin-top: 20px; 
-}
- 
-
-
-
-
-
-/*SECCIÓN SERVICIOS*/
-
-
-section {
-    padding: 20px;
-}
-
-
-.section-servicios {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 20px;
-    text-align: center;
-}
-
-.section-servicios article {
-    flex: 1;
-    min-width: 300px;
-    max-width: 400px;
-}
-
-/*IMAGEN SERVICIOS*/
-.imagenServicios {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    margin: 20px auto;
-}
-
-/*FOOTER*/
-footer {
-    background-color: #222222;
-    color: white;
-    padding: 20px;
-}
-
-.footergeneral {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    text-align: center;
-}
-
-
-
-
-
-
-/*CONTACTO*/
-
-.contacto {
-    background-color: #f8f9fa; 
-    padding: 20px;
-    border-radius: 10px;
-    max-width: 600px;
-    margin: 20px auto;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-
-/*Contenedor de la info */
-.contacto-info ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.contacto-info li {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 10px 0;
-    border-bottom: 1px solid #ddd;
-    font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+  font-size: 18px;
 }
 
 /* Último elemento sin borde */
 .contacto-info li:last-child {
-    border-bottom: none;
+  border-bottom: none;
 }
 
 /*Resaltado de iconos y texto*/
 .spanContactos {
-    font-weight: bold;
-    color: #d32f2f; 
-    font-size: 20px;
+  font-weight: bold;
+  color: #d32f2f;
+  font-size: 20px;
 }
 
-.Centroform{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   height: 20vh;
-
+.Centroform {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20vh;
 }
 
+/*Contacto*/
+/*main*/
+.spanContactos {
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.contactosLi {
+  font-size: 16px;
+}
+
+.Contenedormapa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+  padding: 20px;
+}
+
+.diseñoMapa {
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 400px;
+  max-width: 800px;
+  margin-top: 20px;
+}
+
+.Alineacionheader {
+  display: flex;
+  flex-direction: column;
+}
+
+* {
+  font-family: "Fira Sans", serif;
+}
+
+body main {
+  background-color: rgb(243, 243, 222);
+}
+
+.tituloColorRojo {
+  color: rgb(107, 0, 0);
+}
+
+.footergeneral {
+  background-color: rgba(209, 209, 175, 0.459);
+}
+
+.maquisection {
+  background-color: rgba(139, 0, 0, 0.164);
+  border-radius: 10px;
+}
+
+.titulomaquineria {
+  font-size: 60px;
+  text-align: center;
+  color: white;
+}
+
+.Alineacionheader {
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 10px;
+  background-color: darkred;
+  border-radius: 40px;
+  color: white;
+}
+.Alineacionheader img {
+  height: 300px;
+  transition: 0.3s ease;
+}
+.Alineacionheader img:hover {
+  transform: scale(1.2);
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,66 @@
+@use "../utilities/variables" as variable;
+@import "../utilities/extends";
+@import "../utilities/mixin";
+
+
+
+// Estilos generales
+* {
+    font-family: "Fira Sans", serif;
+}
+
+body  {
+    main {
+        background-color: variable.$color-fondo;
+    }
+}
+
+.tituloColorRojo {
+    color: variable.$color-rojo-oscuro;
+}
+
+.footergeneral {
+    background-color: variable.$color-footer;
+}
+
+.maquisection {
+    background-color: variable.$color-seccion;
+    border-radius: 10px;
+}
+
+// INDEX
+
+// Header
+.titulomaquineria {
+    font-size: 60px;
+    text-align: center;
+    color: variable.$color-blanco;
+}
+
+.Alineacionheader {
+    @extend %flexBasico;
+    @include flexAvanzado(center,center );
+   
+    position: relative;
+    padding: 10px;
+    background-color: variable.$color-header;
+    border-radius: 40px;
+    color: variable.$color-blanco;
+
+    img {
+        height: 300px;
+        transition: 0.3s ease;
+    }
+    img:hover{
+        transform: scale(1.2);
+    }
+}
+
+
+
+
+
+
+
+
+
